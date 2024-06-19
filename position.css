@@ -1,0 +1,39 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color: aqua;
+}
+body{
+    background-image: url(images/4.webp);
+    background-size: contain;
+}
+
+#one{
+    background-color: blue;
+    position: static;
+    
+}
+#two{
+    background-color: red;
+    position: relative;
+    top: 10px;
+    
+}
+#three{
+    background-color: green;
+    position: absolute;
+    top: 30px;
+}
+#four{
+    background-color: orange;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#five{
+    background-color: pink;
+    position: sticky;
+    bottom: 100px;
+}
