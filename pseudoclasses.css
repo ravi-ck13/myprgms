@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    
+}
+div:hover{
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
