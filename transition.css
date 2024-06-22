@@ -1,0 +1,16 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: all 10s ease-in 1s;
+}
+div:hover{
+    background-color: rgb(6, 252, 6);
+    color: rgb(245, 8, 67);
+    font-family: fantasy;
+    transform: scaley(3);
+    border-radius: 100%;
+}
